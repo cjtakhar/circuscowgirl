@@ -1,0 +1,16 @@
+body {
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 100vw;
+}
+
+.signup {
+    position: absolute;
+    margin-top: 125px;
+}
