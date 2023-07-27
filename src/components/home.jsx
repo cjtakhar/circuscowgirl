@@ -14,21 +14,21 @@ const Home = () => {
             <div className="info-container">
                 <div className="info">
                     <h2 className="info-title">Live Events</h2>
-                    <p className="info-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sollicitudin malesuada urna sed luctus. Morbi vel condimentum sem, in laoreet leo. Integer eu augue vel risus egestas accumsan ut ac tellus.</p>
+                    <p className="info-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sollicitudin malesuada urna sed luctus.</p>
                     <Link to="/events">
                         <button className="info-btn">Learn More</button>
                     </Link>
                 </div>
                 <div className="info">
                     <h2 className="info-title">HeartMath</h2>
-                    <p className="info-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sollicitudin malesuada urna sed luctus. Morbi vel condimentum sem, in laoreet leo. Integer eu augue vel risus egestas accumsan ut ac tellus.</p>
+                    <p className="info-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sollicitudin malesuada urna sed luctus.</p>
                     <Link to="/heartmath">
                     <button className="info-btn">Learn More</button>
                     </Link>
                 </div>
                 <div className="info">
                     <h2 className="info-title">Equine Therapy</h2>
-                    <p className="info-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sollicitudin malesuada urna sed luctus. Morbi vel condimentum sem, in laoreet leo. Integer eu augue vel risus egestas accumsan ut ac tellus.</p>
+                    <p className="info-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sollicitudin malesuada urna sed luctus.</p>
                     < Link to="/education">
                     <button className="info-btn">Learn More</button>
                     </Link>
