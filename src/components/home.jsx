@@ -35,7 +35,9 @@ const Home = () => {
                 </div>  
             </div>
             <div className="payment-container">
+                < Link to="https://buy.stripe.com/test_6oEbMbgCidQg1qM144">
                 <button className="pay-btn">Pay</button>
+                </Link>
             </div>
             <div className="footer">
                 <p>circuscowgirl © 2023</p>
