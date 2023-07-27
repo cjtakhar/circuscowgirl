@@ -28,7 +28,6 @@ const Home = () => {
                 </div>  
             </div>
             <div className="payment-container">
-            <h2 className="pay-header">E-Payment Accepted</h2>
                 <button className="pay-btn">Pay</button>
             </div>
             <div className="footer">
