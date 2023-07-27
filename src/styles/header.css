@@ -1,5 +1,6 @@
 .header {
     color: white;
+    margin-bottom: 20px;
 }
 
 .title {
@@ -33,7 +34,7 @@
 
 .link:hover {
     color: #A99E8C;
-    border: solid 1px white; 
+    border-bottom: solid 1px white; 
 }
 
 .sub-title {
