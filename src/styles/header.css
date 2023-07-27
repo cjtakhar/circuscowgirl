@@ -1,14 +1,15 @@
 .header {
     color: white;
     margin-bottom: 20px;
+    padding: 0;
+    margin: 0;
 }
 
-.title-bar {
+/* .title-bar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 20px; /* Add some padding to the title and hamburger container */
-}
+} */
 
 .title {
     text-align: center;
@@ -61,7 +62,8 @@
 .hamburger {
     display: none; /* Hide the hamburger on larger screens */
     cursor: pointer;
-    padding: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
   }
   
   /* Add styles for the bars of the hamburger icon */
@@ -97,10 +99,6 @@
       border: none;
     }
   
-    .hamburger {
-      display: block; /* Show the hamburger icon on smaller screens */
-    }
-  
     /* Position the hamburger icon to the top right */
     .nav-bar {
       position: relative;
@@ -132,6 +130,7 @@
         position: absolute;
         top: 12px;
         right: 0;
+        text-align: right;
       }
 
       .title {
