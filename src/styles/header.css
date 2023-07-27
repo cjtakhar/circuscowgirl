@@ -106,12 +106,6 @@
       position: relative;
     }
   
-    .hamburger {
-      position: absolute;
-      top: 0;
-      right: 0;
-    }
-  
     /* Create a backdrop for the mobile menu */
     .backdrop {
       position: fixed;
@@ -137,7 +131,7 @@
         display: block; /* Show the hamburger icon on smaller screens */
         position: absolute;
         top: 12px;
-        right: 20px;
+        right: 0;
       }
 
       .title {
@@ -145,4 +139,3 @@
         text-align: center;
       }
   }
-  
