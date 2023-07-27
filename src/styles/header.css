@@ -41,3 +41,17 @@
     text-transform: uppercase;
     font-size: 3.5em;
 }
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 2em;
+    }
+    
+    .sub-title {
+        font-size: 2.5em;
+    }
+    
+    .link {
+        font-size: 1em;
+    }
+}
