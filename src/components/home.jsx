@@ -31,7 +31,7 @@ const Home = () => {
                 <button className="pay-btn">Pay</button>
             </div>
             <div className="footer">
-                <p>circuscowgirl © 2024</p>
+                <p>circuscowgirl © 2023</p>
             </div>
         </div>
     )
