@@ -10,6 +10,10 @@
     font-size: 3em;
 }
 
+.nav-bar {
+  position: relative;
+}
+
 .nav-links {
     display: flex;
     flex-direction: row;
@@ -20,6 +24,7 @@
     padding: 0;
     margin: 0;
     width: 100%;
+    position: relative;
 }
 
 .link {
@@ -30,6 +35,7 @@
     font-weight: 200;
     transition: ease-in-out 0.2s;
     border: solid 1px transparent;
+    z-index: 2;
 }
 
 .link:hover {
@@ -73,6 +79,15 @@
   
     .nav-links.open {
       display: block; /* Show the links when the mobile menu is open */
+      z-index: 2;
+    }
+
+    .link {
+      border: none;
+    }
+
+    .link:hover {
+      border: none;
     }
   
     .hamburger {
