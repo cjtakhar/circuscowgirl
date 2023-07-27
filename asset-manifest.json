@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/circuscowgirl/static/css/main.8f73da95.css",
+    "main.css": "/circuscowgirl/static/css/main.1a341961.css",
     "main.js": "/circuscowgirl/static/js/main.7a9cb261.js",
     "static/js/787.657c387b.chunk.js": "/circuscowgirl/static/js/787.657c387b.chunk.js",
     "static/media/kansas.jpg": "/circuscowgirl/static/media/kansas.342804e9981b8ab6179d.jpg",
     "index.html": "/circuscowgirl/index.html",
-    "main.8f73da95.css.map": "/circuscowgirl/static/css/main.8f73da95.css.map",
+    "main.1a341961.css.map": "/circuscowgirl/static/css/main.1a341961.css.map",
     "main.7a9cb261.js.map": "/circuscowgirl/static/js/main.7a9cb261.js.map",
     "787.657c387b.chunk.js.map": "/circuscowgirl/static/js/787.657c387b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8f73da95.css",
+    "static/css/main.1a341961.css",
     "static/js/main.7a9cb261.js"
   ]
 }
