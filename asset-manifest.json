@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/circuscowgirl/static/css/main.beb89e44.css",
-    "main.js": "/circuscowgirl/static/js/main.f08d2e6d.js",
+    "main.css": "/circuscowgirl/static/css/main.8f73da95.css",
+    "main.js": "/circuscowgirl/static/js/main.c0b92bc7.js",
     "static/js/787.657c387b.chunk.js": "/circuscowgirl/static/js/787.657c387b.chunk.js",
     "static/media/kansas.jpg": "/circuscowgirl/static/media/kansas.342804e9981b8ab6179d.jpg",
     "index.html": "/circuscowgirl/index.html",
-    "main.beb89e44.css.map": "/circuscowgirl/static/css/main.beb89e44.css.map",
-    "main.f08d2e6d.js.map": "/circuscowgirl/static/js/main.f08d2e6d.js.map",
+    "main.8f73da95.css.map": "/circuscowgirl/static/css/main.8f73da95.css.map",
+    "main.c0b92bc7.js.map": "/circuscowgirl/static/js/main.c0b92bc7.js.map",
     "787.657c387b.chunk.js.map": "/circuscowgirl/static/js/787.657c387b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.beb89e44.css",
-    "static/js/main.f08d2e6d.js"
+    "static/css/main.8f73da95.css",
+    "static/js/main.c0b92bc7.js"
   ]
 }
