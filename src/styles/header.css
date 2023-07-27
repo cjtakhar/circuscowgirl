@@ -128,8 +128,7 @@
 
     .hamburger {
         display: block; /* Show the hamburger icon on smaller screens */
-        position: absolute;
-        top: 20px;
+        position: relative;
         right: 0;
       }
 
