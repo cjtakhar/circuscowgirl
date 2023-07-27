@@ -1,0 +1,43 @@
+.header {
+    color: white;
+}
+
+.title {
+    text-align: center;
+    font-weight: 200;
+    text-transform: uppercase;
+    font-size: 3em;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+.link {
+    padding: 10px;
+    margin: 10px 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 200;
+    transition: ease-in-out 0.2s;
+    border: solid 1px transparent;
+}
+
+.link:hover {
+    color: #A99E8C;
+    border: solid 1px white; 
+}
+
+.sub-title {
+    text-align: center;
+    font-weight: 200;
+    text-transform: uppercase;
+    font-size: 3.5em;
+}
