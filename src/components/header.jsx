@@ -24,11 +24,6 @@ const Header = () => {
             </Link>
           </li>
           <li className="link">
-            <Link to="/projects" style={{ textDecoration: 'none', color: 'white' }}>
-              Media
-            </Link>
-          </li>
-          <li className="link">
             <Link to="/contact" style={{ textDecoration: 'none', color: 'white' }}>
               Contact
             </Link>
