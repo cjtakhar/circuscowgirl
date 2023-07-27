@@ -1,13 +1,30 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/header.css';
 
 const Header = () => {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+  const toggleMobileMenu = () => {
+    setMobileMenuOpen(!mobileMenuOpen);
+  };
+
+  const closeMobileMenu = () => {
+    setMobileMenuOpen(false);
+  };
+
   return (
     <div className="header">
-      <h1 className="title">Kansas Carradine</h1>
-      <div className="nav-bar">
-        <ul className="nav-links">
+      <div className="title-bar">
+        <h1 className="title">Kansas Carradine</h1>
+        <div className={`hamburger ${mobileMenuOpen ? 'open' : ''}`} onClick={toggleMobileMenu}>
+          <div className="bar"></div>
+          <div className="bar"></div>
+          <div className="bar"></div>
+        </div>
+      </div>
+      <div className={`nav-bar ${mobileMenuOpen ? 'open' : ''}`}>
+        <ul className={`nav-links ${mobileMenuOpen ? 'open' : ''}`}>
           <li className="link">
             <Link to="/about" style={{ textDecoration: 'none', color: 'white' }}>
               About
@@ -24,11 +41,17 @@ const Header = () => {
             </Link>
           </li>
           <li className="link">
+            <Link to="/heartmath" style={{ textDecoration: 'none', color: 'white' }}>
+              HeartMath
+            </Link>
+          </li>
+          <li className="link">
             <Link to="/contact" style={{ textDecoration: 'none', color: 'white' }}>
               Contact
             </Link>
           </li>
         </ul>
+        {mobileMenuOpen && <div className="backdrop" onClick={closeMobileMenu}></div>}
       </div>
     </div>
   );

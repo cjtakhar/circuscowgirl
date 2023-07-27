@@ -43,3 +43,83 @@
     text-transform: uppercase;
     font-size: 3.5em;
 }
+
+/* Add a hamburger icon */
+.hamburger {
+    display: none; /* Hide the hamburger on larger screens */
+    cursor: pointer;
+    padding: 15px;
+  }
+  
+  /* Add styles for the bars of the hamburger icon */
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+  }
+
+  .title-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Media query for mobile */
+  @media screen and (max-width: 600px) {
+    .nav-links {
+      display: none; /* Hide the links initially on mobile */
+    }
+  
+    .nav-links.open {
+      display: block; /* Show the links when the mobile menu is open */
+    }
+  
+    .hamburger {
+      display: block; /* Show the hamburger icon on smaller screens */
+    }
+  
+    /* Position the hamburger icon to the top right */
+    .nav-bar {
+      position: relative;
+    }
+  
+    .hamburger {
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+  
+    /* Create a backdrop for the mobile menu */
+    .backdrop {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  
+    /* Adjust the padding and margin for better mobile layout */
+    .nav-links {
+      padding: 10px;
+      margin: 0;
+    }
+  
+    .link {
+      padding: 10px 0;
+      margin: 0;
+      text-align: center;
+    }
+
+    .hamburger {
+        display: block; /* Show the hamburger icon on smaller screens */
+        position: absolute;
+        top: 20px;
+        right: 0;
+      }
+
+      .title {
+        font-size: 2.5em;
+      }
+  }
+  
