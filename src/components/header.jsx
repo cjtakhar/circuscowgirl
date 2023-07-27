@@ -14,13 +14,13 @@ const Header = () => {
             </Link>
           </li>
           <li className="link">
-            <Link to="/education" style={{ textDecoration: 'none', color: 'white' }}>
-              Education
+            <Link to="/events" style={{ textDecoration: 'none', color: 'white' }}>
+              Events
             </Link>
           </li>
           <li className="link">
-            <Link to="/events" style={{ textDecoration: 'none', color: 'white' }}>
-              Events
+            <Link to="/education" style={{ textDecoration: 'none', color: 'white' }}>
+              Education
             </Link>
           </li>
           <li className="link">
