@@ -68,10 +68,21 @@
     transition: ease-in-out 0.2s;
 }
 
+.payment-container {
+    margin-top: 100px;
+    border: solid 1px white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
 .pay-header {
    text-align: center;
-    color: white;
-    font-weight: lighter;
+   color: #8D7B68;
+    font-weight: 200;
   
 }
 .payment-title {
@@ -102,7 +113,7 @@
 .footer {
     text-align: center;
     color: white;
-    margin: 20px;
+    margin: 50px 0 0;
 }
 
 @media (max-width: 1000px) {
