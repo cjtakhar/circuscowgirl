@@ -17,7 +17,7 @@ const Home = () => {
                     <button className="info-btn">Learn More</button>
                 </div>
                 <div className="info">
-                    <h2 className="info-title">Individual Sessions</h2>
+                    <h2 className="info-title">Sessions</h2>
                     <p className="info-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sollicitudin malesuada urna sed luctus. Morbi vel condimentum sem, in laoreet leo. Integer eu augue vel risus egestas accumsan ut ac tellus.</p>
                     <button className="info-btn">Learn More</button>
                 </div>
