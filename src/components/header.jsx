@@ -16,7 +16,9 @@ const Header = () => {
   return (
     <div className="header">
       <div className="title-bar">
-        <h1 className="title">Kansas Carradine</h1>
+        <Link to="/circuscowgirl" style={{ textDecoration: 'none', color: 'white' }}>
+          <h1 className="title">Kansas Carradine</h1>
+        </Link>
         <div className={`hamburger ${mobileMenuOpen ? 'open' : ''}`} onClick={toggleMobileMenu}>
           <div className="bar"></div>
           <div className="bar"></div>
