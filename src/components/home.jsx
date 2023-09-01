@@ -32,7 +32,7 @@ const Home = () => {
                 </div>  
             </div>
             <div className="payment-container">
-                < Link to="https://buy.stripe.com/test_6oEbMbgCidQg1qM144">
+                < Link to="/book">
                 <button className="pay-btn">Book</button>
                 </Link>
             </div>

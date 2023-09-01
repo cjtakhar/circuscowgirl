@@ -8,6 +8,7 @@ import Horsemanship from './components/horsemanship';
 import Contact from './components/contact';
 import Events from './components/events';
 import Clinics from './components/clinics';
+import Book from './components/book';
 import './App.css';
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
           <Route path="/contact" element={< Contact />} />
           <Route path="/events" element={< Events />} />
           <Route path="/clinics" element={< Clinics />} />
+          <Route path="/book" element={< Book />} />
         </Routes>
       </BrowserRouter>
     </div>
