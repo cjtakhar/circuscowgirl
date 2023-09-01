@@ -1,5 +1,5 @@
 import Image from '../images/kansas-clinic.jpeg';
-
+import '../styles/clinics.css';
 const Clinics = () => {
     return (
         <div className="clinics-container">
