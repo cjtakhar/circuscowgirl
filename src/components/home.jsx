@@ -24,16 +24,16 @@ const Home = () => {
                     </Link>
                 </div>
                 <div className="info">
-                    <h2 className="info-title">Equine Therapy</h2>
+                    <h2 className="info-title">Testimonaials</h2>
                     <p className="info-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sollicitudin malesuada urna sed luctus.</p>
-                    < Link to="/education">
+                    < Link to="/testimonials">
                     <button className="info-btn">Learn More</button>
                     </Link>
                 </div>  
             </div>
             <div className="payment-container">
                 < Link to="https://buy.stripe.com/test_6oEbMbgCidQg1qM144">
-                <button className="pay-btn">Pay</button>
+                <button className="pay-btn">Book</button>
                 </Link>
             </div>
             <div className="footer">
