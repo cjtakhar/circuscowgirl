@@ -24,7 +24,7 @@ const Home = () => {
                     </Link>
                 </div>
                 <div className="info">
-                    <h2 className="info-title">Testimonaials</h2>
+                    <h2 className="info-title">Testimonials</h2>
                     <p className="info-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sollicitudin malesuada urna sed luctus.</p>
                     < Link to="/testimonials">
                     <button className="info-btn">Learn More</button>
