@@ -5,6 +5,16 @@
     margin: 0;
 }
 
+.main-title {
+    text-align: center;
+    font-weight: 200;
+    text-transform: uppercase;
+    font-size: 3em;
+    color: white;
+    margin: 20px 0;
+    padding: 0;
+}
+
 .title {
     text-align: center;
     font-weight: 200;

@@ -17,7 +17,7 @@ const Header = () => {
     <div className="header">
       <div className="title-bar">
         <Link to="/circuscowgirl" style={{ textDecoration: 'none', color: 'white' }}>
-          <h1 className="title">Kansas Carradine</h1>
+          <h1 className="main-title">Kansas Carradine</h1>
         </Link>
         <div className={`hamburger ${mobileMenuOpen ? 'open' : ''}`} onClick={toggleMobileMenu}>
           <div className="bar"></div>
