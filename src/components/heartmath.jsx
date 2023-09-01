@@ -8,7 +8,7 @@ const HeartMath = () => {
             <div className="hm-image-container">
                 <img src={Image} alt="Kansas Carradine" className="hm-image"/>
             </div>
-            <div className="payment-container">
+            <div className="booking-container">
                 < Link to="/book">
                 <button className="pay-btn">Book</button>
                 </Link>

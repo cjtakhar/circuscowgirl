@@ -1,3 +1,19 @@
-.payment-container {
-    width: 100%;
+@media (max-width: 1000px) {
+    .events-container {
+        width: 100%;
+    }
+    .events-info-container {
+        flex-direction: column;
+    }
+    .events-paragraph {
+        margin: 10px 2px;
+    }
+
+    .events-image-container {
+        margin: 0;
+    }
+    .events-image {
+        width: 100%;
+        height: 100%;
+    }
 }

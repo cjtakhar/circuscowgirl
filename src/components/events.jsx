@@ -11,7 +11,7 @@ const Events = () => {
                 <img src={Image1} alt="Kansas Carradine" className="events-image"/>
                 <img src={Image2} alt="Kansas Carradine" className="events-image"/>
             </div>
-            <div className="payment-container">
+            <div className="booking-container">
                 < Link to="/book">
                 <button className="pay-btn">Book</button>
                 </Link>

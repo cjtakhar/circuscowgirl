@@ -144,6 +144,17 @@
     transition: ease-in-out 0.2s;
 }
 
+.booking-container {
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #A99E8C;
+    padding: 20px;
+}
+
 .payment-container {
     margin-top: 100px;
     display: flex;

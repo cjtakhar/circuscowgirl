@@ -31,7 +31,7 @@ const Home = () => {
                     </Link>
                 </div>  
             </div>
-            <div className="payment-container">
+            <div className="booking-container">
                 < Link to="/book">
                 <button className="pay-btn">Book</button>
                 </Link>
