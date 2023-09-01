@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom';
 import Image1 from '../images/heartmathhorsemanship.jpeg';
 import Image2 from '../images/kansas-clinic-flyer.jpeg';
+import '../styles/events.css';
+
 const Events = () => {
     return (
         <div className="events-container">
