@@ -26,7 +26,7 @@ const Book = () => {
 
     return (
         <div className="book-container">
-            <h1 className="title">Book</h1>
+            <h1 className="title">Booking</h1>
             <div className="booking-form">
                 <form className="form" onSubmit={handleSubmit}>
                     <label htmlFor="name"></label>
@@ -67,7 +67,7 @@ const Book = () => {
                         <option className="option" value="clinics">Clinic</option>
                         <option className="option" value="heartmath">HeartMath</option>
                         <option className="option" value="horsemanship">Horsemanship</option>
-                        <option className="option" value="giving">Giving</option>
+                        <option className="option" value="media">Media</option>
                         <option className="option" value="other">Other</option>
                     </select>
                     <label htmlFor="message"></label>
@@ -75,11 +75,11 @@ const Book = () => {
                         className="message-input"
                         type="text"
                         name="message"
-                        placeholder="message"
+                        placeholder="Message"
                         value={formData.message}
                         onChange={handleInputChange}
                     />
-                    <button className="form-btn" type="submit">Submit</button>
+                    <button className="form-btn" type="submit">Submit Request</button>
                 </form>
             </div>
             <div className="payment-container">
