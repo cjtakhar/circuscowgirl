@@ -49,7 +49,7 @@ const Header = () => {
           </li>
           <li className="link">
             <Link to="/news" style={{ textDecoration: 'none', color: 'white' }}>
-              News
+              Media
             </Link>
           </li>
           <li className="link">
