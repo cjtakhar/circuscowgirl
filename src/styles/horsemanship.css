@@ -1,0 +1,32 @@
+.horsemanship-image {
+    width: 40%;
+    height: auto; /* Use auto for proportional scaling */
+    margin: 20px;
+  }
+  
+  .photo-corral {
+    position: relative;
+    text-align: center;
+  }
+  
+  .nav-button {
+    position: absolute;
+    top: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 24px;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    transform: translateY(-50%);
+  }
+  
+  .nav-button.left {
+    left: calc(20% + 20px); /* Adjust this value for spacing */
+  }
+  
+  .nav-button.right {
+    right: calc(20% + 20px); /* Adjust this value for spacing */
+  }
+  
+  
