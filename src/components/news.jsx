@@ -4,7 +4,7 @@ import '../styles/news.css';
 const News = () => {
   return (
     <div className="news-container">
-      <h1 className="title">News</h1>
+      <h1 className="title">Media</h1>
       <div className="news"> 
       <div className="podcast-container">
         <iframe 

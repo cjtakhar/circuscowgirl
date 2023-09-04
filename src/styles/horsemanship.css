@@ -29,5 +29,82 @@
   .nav-button.right {
     right: calc(20% + 20px); /* Adjust this value for spacing */
   }
+
+  .horsemanship-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+  }
+
+  .info-title {
+    font-style: italic;
+    font-size: 2em;
+  }
+
+  .horsemanship-paragraph {
+    width: 50%;
+    font-size: 1.2em;
+  }
+
+  .testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 20px;
+    margin: 40px;
+    width: 30%;
+    background-color: #A99E8C;
+    font-size: 1.2em;
+  }
+
+  .testimonial-title {
+    font-size: 1em;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+  }
   
-  
+  .testimonial-paragraph {
+    font-size: .8em;
+    line-height: 1em;
+  }
+
+  .quoted {
+    font-style: italic;
+    font-size: 1em;
+  }
+
+  @media screen and (max-width: 768px) {
+    .horsemanship {
+      width: 90%;
+    }
+    .horsemanship-image {
+      width: 100%;
+    }
+    .horsemanship-info {
+      width: 100%;
+    }
+    .testimonial {
+      width: 100%;
+    }
+    .horsemanship-paragraph {
+      width: 100%;
+    }
+    .photo-corral {
+      width: 100%;
+    }
+    .nav-button.left {
+      left: calc(4% + 2px); /* Adjust this value for spacing */
+    }
+    
+    .nav-button.right {
+      right: calc(-5% + 2px); /* Adjust this value for spacing */
+    }
+  }
