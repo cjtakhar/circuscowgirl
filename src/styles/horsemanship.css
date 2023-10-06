@@ -11,8 +11,6 @@
   }
   
   .nav-button {
-    position: absolute;
-    top: 50%;
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     font-size: 24px;
@@ -21,13 +19,17 @@
     cursor: pointer;
     transform: translateY(-50%);
   }
-  
+
   .nav-button.left {
-    left: calc(20% + 20px); /* Adjust this value for spacing */
+    position: absolute;
+    top: 50%;
+    left: calc(4% + 2px); /* Adjust this value for spacing */
   }
-  
+
   .nav-button.right {
-    right: calc(20% + 20px); /* Adjust this value for spacing */
+    position: absolute;
+    top: 50%;
+    right: calc(5% + 2px); /* Adjust this value for spacing */
   }
 
   .horsemanship-info {
@@ -101,10 +103,10 @@
       width: 100%;
     }
     .nav-button.left {
-      left: calc(4% + 2px); /* Adjust this value for spacing */
+      left: 5px;
+      z-index: 1;
     }
-    
     .nav-button.right {
-      right: calc(-5% + 2px); /* Adjust this value for spacing */
+      right: 5px;
     }
   }

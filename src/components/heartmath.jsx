@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import Image1 from '../images/Fyera.jpeg';
 import Image2 from '../images/heartambassadors.jpeg';
+import '../styles/heartmath.css';
 
 const HeartMath = () => {
     return (
