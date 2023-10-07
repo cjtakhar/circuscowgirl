@@ -15,7 +15,6 @@ const Horsemanship = () => {
     setCurrentPhoto((prevPhoto) => (prevPhoto + 1) % photos.length);
   };
   const prevPhoto = () => {
-    console.log("Left button clicked");
     setCurrentPhoto((prevPhoto) => (prevPhoto === 0 ? photos.length - 1 : prevPhoto - 1));
   };
   
