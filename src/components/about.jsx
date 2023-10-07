@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import Image from '../images/kansas-roping.jpg';
+import '../styles/about.css';
 
 const About = () => {
     return (

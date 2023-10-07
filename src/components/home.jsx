@@ -18,14 +18,14 @@ const Home = () => {
                 </div>
                 <div className="info">
                     <h2 className="info-title">Clinics</h2>
-                    <p className="info-paragraph">Developing a deeper more meaningful connection</p>
+                    <p className="info-paragraph">Improve connection, communication, and confidence.</p>
                     <Link to="/clinics">
                     <button className="info-btn">Learn More</button>
                     </Link>
                 </div>
                 <div className="info">
                     <h2 className="info-title">Media</h2>
-                    <p className="info-paragraph">Sights and sounds of Kansas</p>
+                    <p className="info-paragraph">Sights and sounds</p>
                     < Link to="/news">
                     <button className="info-btn">Learn More</button>
                     </Link>

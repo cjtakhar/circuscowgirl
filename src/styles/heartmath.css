@@ -1,0 +1,30 @@
+.heartmath-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 100vw;
+}
+
+.hm-hand {
+    height: 50%;
+    width: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.paragraph-container {
+    font-size: 1.2em;
+    font-weight: 300;
+    margin: 10px;
+    width: 50%;
+}
+
+@media (max-width: 748px) {
+    .paragraph-container {
+        width: 90%;
+    }
+    .hm-hand {
+        width: 100%;
+    }
+} 
