@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/circuscowgirl/static/css/main.64073a4d.css",
-    "main.js": "/circuscowgirl/static/js/main.bffa2c0c.js",
+    "main.css": "/circuscowgirl/static/css/main.8c2fa724.css",
+    "main.js": "/circuscowgirl/static/js/main.7be10b30.js",
     "static/js/787.657c387b.chunk.js": "/circuscowgirl/static/js/787.657c387b.chunk.js",
     "static/media/kansas-horse-5.jpg": "/circuscowgirl/static/media/kansas-horse-5.14db0e26bbd982e3a732.jpg",
     "static/media/kansas-roping.jpg": "/circuscowgirl/static/media/kansas-roping.794c40d91ebed0763c46.jpg",
@@ -17,13 +17,14 @@
     "static/media/heartmathhorsemanship.jpeg": "/circuscowgirl/static/media/heartmathhorsemanship.0f971ecbec7347dcce52.jpeg",
     "static/media/heartambassadors.jpeg": "/circuscowgirl/static/media/heartambassadors.ad0fb21f73f30ae28e1d.jpeg",
     "static/media/Fyera.jpeg": "/circuscowgirl/static/media/Fyera.8546210ea533543ce84a.jpeg",
+    "static/media/coherence-science.jpg": "/circuscowgirl/static/media/coherence-science.0d0424861c9d367d5f95.jpg",
     "index.html": "/circuscowgirl/index.html",
-    "main.64073a4d.css.map": "/circuscowgirl/static/css/main.64073a4d.css.map",
-    "main.bffa2c0c.js.map": "/circuscowgirl/static/js/main.bffa2c0c.js.map",
+    "main.8c2fa724.css.map": "/circuscowgirl/static/css/main.8c2fa724.css.map",
+    "main.7be10b30.js.map": "/circuscowgirl/static/js/main.7be10b30.js.map",
     "787.657c387b.chunk.js.map": "/circuscowgirl/static/js/787.657c387b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.64073a4d.css",
-    "static/js/main.bffa2c0c.js"
+    "static/css/main.8c2fa724.css",
+    "static/js/main.7be10b30.js"
   ]
 }
