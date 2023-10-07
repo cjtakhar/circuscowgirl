@@ -5,7 +5,7 @@ const Testimonial2 = () => {
         <div className="testimonial-container">
             <h2 className="testimonial-title">Testimonial</h2>
             <p className="quoted">
-                EVELYN BROWN - CONNECTED HORSE, BAY AREA, CA
+                EVELYN BROWN - CONNECTED HORSE, Bay Area, CA
             </p>
             <div className="card-container">
                 <div className="testimonial-card">

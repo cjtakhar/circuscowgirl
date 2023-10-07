@@ -42,7 +42,7 @@ const Horsemanship = () => {
 
       <div className="horsemanship-info">
         <div className="info-title-container">
-          <h2 className="info-title">Connection. Trust. Unity</h2>
+          <h2 className="info-title">Connection. Trust. Unity.</h2>
         </div>
         <div className="horsemanship-paragraph">
           <p>These noble qualities are the goals for most horse lovers.</p>

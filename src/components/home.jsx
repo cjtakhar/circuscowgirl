@@ -18,7 +18,7 @@ const Home = () => {
                 </div>
                 <div className="info">
                     <h2 className="info-title">Clinics</h2>
-                    <p className="info-paragraph">Improve connection, communication, and confidence.</p>
+                    <p className="info-paragraph">Improve connection communication and confidence</p>
                     <Link to="/clinics">
                     <button className="info-btn">Learn More</button>
                     </Link>
