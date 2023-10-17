@@ -20,6 +20,13 @@ const Services = () => {
                     <button className="info-btn">Learn More</button>
                 </Link>
                 </div>
+                <div className="service-info">
+                <h2 className="service-title">Clinics</h2>
+                <p className="service-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.</p>
+                <Link to="/clinics" style={{ textDecoration: 'none', color: 'white' }}>
+                    <button className="info-btn">Learn More</button>
+                </Link>
+                </div>
             </div>
         </div>
     )
