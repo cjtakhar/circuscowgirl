@@ -36,10 +36,6 @@
     text-align: center;
 }
 
-.info-btn {
-    
-}
-
 @media (max-width: 768px) {
     .service-info {
         width: 100%;
