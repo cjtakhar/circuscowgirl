@@ -49,7 +49,7 @@ const Services = () => {
           </Link>
         </div>
         <div className="service-info">
-          <h2 className="service-title">C20</h2>
+          <h2 className="service-title">Gender Equality</h2>
           <p className="service-text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
