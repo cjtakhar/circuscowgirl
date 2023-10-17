@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 import Image from '../images/thehorse.jpg'
-import "../styles/news.css";
+import "../styles/media.css";
 
-const News = () => {
+const Media = () => {
   return (
     <div className="news-container">
       <h1 className="title">Media</h1>
@@ -114,4 +114,4 @@ const News = () => {
   );
 };
 
-export default News;
+export default Media;
