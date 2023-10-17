@@ -8,6 +8,7 @@ const Media = () => {
       <h1 className="title">Media</h1>
       <div className="media">
         <div className="videos">
+        <h2 className="video-title">Videos</h2>
           <div className="video-container">
            
             <iframe

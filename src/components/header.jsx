@@ -38,13 +38,8 @@ const Header = () => {
             </Link>
           </li>
           <li className="link">
-            <Link to="/heartmath" style={{ textDecoration: 'none', color: 'white' }}>
-              HeartMath
-            </Link>
-          </li>
-          <li className="link">
-            <Link to="/horsemanship" style={{ textDecoration: 'none', color: 'white' }}>
-              Horsemanship
+            <Link to="/services" style={{ textDecoration: 'none', color: 'white' }}>
+              Services
             </Link>
           </li>
           <li className="link">
