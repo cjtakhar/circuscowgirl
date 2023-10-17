@@ -26,7 +26,7 @@ const Home = () => {
                 <div className="info">
                     <h2 className="info-title">Media</h2>
                     <p className="info-paragraph">Sights and sounds</p>
-                    < Link to="/news">
+                    < Link to="/media">
                     <button className="info-btn">Learn More</button>
                     </Link>
                 </div>  
