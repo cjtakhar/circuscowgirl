@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import Image3 from '../images/coherence-science.jpg';
-import Testimonial2 from './testimonial2';
 import '../styles/heartmath.css';
 
 const HeartMath = () => {

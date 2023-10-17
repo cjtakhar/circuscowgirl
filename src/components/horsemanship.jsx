@@ -5,7 +5,6 @@ import photo2 from "../images/kansas-horse-2.jpg";
 import photo3 from "../images/kansas-horse-3.jpg";
 import photo4 from "../images/kansas-horse-4.jpg";
 import photo5 from "../images/kansas-horse-5.jpg";
-import Testimonial1 from "./testimonial1";
 import "../styles/horsemanship.css";
 
 const Horsemanship = () => {
