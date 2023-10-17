@@ -34,6 +34,15 @@
     overflow: hidden;
   }
 
+  .vid-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    flex-wrap: wrap;
+  }
+
   .video-caption {
     color: white;
     text-align: center;
@@ -83,8 +92,8 @@
     justify-content: center;
     margin: 20px;
     background-color: rgba(0, 0, 0, 0.5);
-    padding: 20px;
-    width: 100%;
+    width: 90%;
+    height: 500px;
   }
 
   .press-title {
@@ -100,8 +109,7 @@
   }
 
   .thehorse-image {
-    width: 250px;
-    height: 100%;
+    width: 350px;
     object-fit: cover;
   }
   

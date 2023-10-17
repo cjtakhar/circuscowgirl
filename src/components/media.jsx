@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Image from '../images/thehorse.jpg'
+import Image from "../images/thehorse.jpg";
 import "../styles/media.css";
 
 const Media = () => {
@@ -8,9 +8,9 @@ const Media = () => {
       <h1 className="title">Media</h1>
       <div className="media">
         <div className="videos">
-        <h2 className="video-title">Videos</h2>
+          <h2 className="video-title">Videos</h2>
+          <div className="vid-box">
           <div className="video-container">
-           
             <iframe
               width="560"
               height="315"
@@ -20,10 +20,9 @@ const Media = () => {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
             ></iframe>
-             <p className="video-caption">Lasso Performance</p>
+            <p className="video-caption">Lasso Performance</p>
           </div>
           <div className="video-container">
-        
             <iframe
               width="560"
               height="315"
@@ -33,10 +32,9 @@ const Media = () => {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
             ></iframe>
-              <p className="video-caption">Lasso Demo</p>
+            <p className="video-caption">Lasso Demo</p>
           </div>
           <div className="video-container">
-         
             <iframe
               width="560"
               height="315"
@@ -46,10 +44,9 @@ const Media = () => {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
             ></iframe>
-             <p className="video-caption">Trick Riding</p>
+            <p className="video-caption">Trick Riding</p>
           </div>
           <div className="video-container">
- 
             <iframe
               width="560"
               height="315"
@@ -59,14 +56,15 @@ const Media = () => {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
             ></iframe>
-                     <p className="video-caption">Interview</p>
+            <p className="video-caption">Interview</p>
           </div>
         </div>
-        <div className="podcasts">
-        <div className="podcast-title">
-          <h2 className="podcast-title">Podcasts</h2>
         </div>
-   
+        <div className="podcasts">
+          <div className="podcast-title">
+            <h2 className="podcast-title">Podcasts</h2>
+          </div>
+
           <div className="podcast-container">
             <p className="podcast-caption">The Journey On</p>
             <iframe
@@ -77,7 +75,7 @@ const Media = () => {
           </div>
 
           <div className="podcast-container">
-          <p className="podcast-caption">Horsemanship Radio</p>
+            <p className="podcast-caption">Horsemanship Radio</p>
             <iframe
               className="podcast-iframe"
               src="https://player.captivate.fm/episode/a70453a8-1f0a-4f94-83bb-1d8c8509cc4d"
@@ -88,23 +86,19 @@ const Media = () => {
         <div className="press-container">
           <h2 className="press-title">Press</h2>
           <div className="the-horse">
-          <Link
-                to="https://thehorse.com/191692/connecting-horses-to-the-public-from-black-beauty-to-cavalia/"
-                className="news-link"
-              >
-            <img
-              src={Image}
-              alt="The Horse Logo"
-              className="thehorse-image"
-            />
-             </Link>
-            <p className="press-text">
-           
-             
-            </p>
+            <Link
+              to="https://thehorse.com/191692/connecting-horses-to-the-public-from-black-beauty-to-cavalia/"
+              className="news-link"
+            >
+              <img
+                src={Image}
+                alt="The Horse Logo"
+                className="thehorse-image"
+              />
+            </Link>
+            <p className="press-text"></p>
           </div>
         </div>
-
       </div>
       <div className="booking-container">
         <Link to="/book">
