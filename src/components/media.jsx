@@ -78,6 +78,15 @@ const Media = () => {
               title="Hands On Gloves Podcast"
             ></iframe>
           </div>
+          <div className="podcast-container">
+    <p className="podcast-caption">Stable Connections</p>
+    <iframe
+        className="podcast-iframe"
+        src="https://embed.podcasts.apple.com/us/podcast/episode-23-kansas-carradine/id1600508854?i=1000559307477"
+        title="Stable Connections Podcast"
+    ></iframe>
+</div>
+
         </div>
         <div className="press-container">
           <h2 className="press-title">Press</h2>

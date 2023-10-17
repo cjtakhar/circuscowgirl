@@ -61,11 +61,10 @@
   }
   
   .podcast-container {
-    width: 500px;
+    width: 600px;
     height: 250px;
     margin-bottom: 20px;
     border-radius: 6px;
-    overflow: hidden;
   }
   
   .podcast-iframe {
@@ -126,6 +125,15 @@
   .video-frame {
     width: 460px;
     height: 250px;
+  }
+
+  .podcast-container {
+    width: 460px;
+    height: 250px;
+  }
+
+  .press-container {
+    width: 420px;
   }
 }
   
