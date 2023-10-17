@@ -11,21 +11,18 @@ const Home = () => {
             <div className="info-container">
                 <div className="info">
                     <h2 className="info-title">Events</h2>
-                    <p className="info-paragraph">View upcoming and past events</p>
                     <Link to="/events">
                         <button className="info-btn">Learn More</button>
                     </Link>
                 </div>
                 <div className="info">
                     <h2 className="info-title">Clinics</h2>
-                    <p className="info-paragraph">Improve connection communication and confidence</p>
                     <Link to="/clinics">
                     <button className="info-btn">Learn More</button>
                     </Link>
                 </div>
                 <div className="info">
                     <h2 className="info-title">Media</h2>
-                    <p className="info-paragraph">Sights and sounds</p>
                     < Link to="/media">
                     <button className="info-btn">Learn More</button>
                     </Link>
