@@ -12,8 +12,7 @@ const Media = () => {
           <div className="vid-box">
           <div className="video-container">
             <iframe
-              width="560"
-              height="315"
+              className="video-frame"
               src="https://www.youtube.com/embed/am-4y17lg6A"
               title="YouTube Video"
               frameborder="0"
@@ -24,8 +23,7 @@ const Media = () => {
           </div>
           <div className="video-container">
             <iframe
-              width="560"
-              height="315"
+              className="video-frame"
               src="https://www.youtube.com/embed/g2t0QIBX5ts"
               title="YouTube Video"
               frameborder="0"
@@ -36,8 +34,7 @@ const Media = () => {
           </div>
           <div className="video-container">
             <iframe
-              width="560"
-              height="315"
+            className="video-frame"
               src="https://www.youtube.com/embed/nXrWC5zD4tM"
               title="YouTube Video"
               frameborder="0"
@@ -48,8 +45,7 @@ const Media = () => {
           </div>
           <div className="video-container">
             <iframe
-              width="560"
-              height="315"
+              className="video-frame"
               src="https://www.youtube.com/embed/ezGpi2ImX-M"
               title="YouTube Video"
               frameborder="0"

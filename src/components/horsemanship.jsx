@@ -79,7 +79,7 @@ const Horsemanship = () => {
         </div>
       </div>
       <div>
-        <Testimonial1 />
+        {/* <Testimonial1 /> */}
       </div>
       <div className="booking-container">
         <Link to="/book">

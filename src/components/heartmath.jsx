@@ -16,7 +16,7 @@ const HeartMath = () => {
                 </div>
             </div>
             <div className="testimonial-section">
-                < Testimonial2 />
+                {/* < Testimonial2 /> */}
             </div>
             <div className="booking-container">
                 < Link to="/book">
