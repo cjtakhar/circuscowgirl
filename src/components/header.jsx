@@ -48,7 +48,7 @@ const Header = () => {
             </Link>
           </li>
           <li className="link">
-            <Link to="/news" style={{ textDecoration: 'none', color: 'white' }}>
+            <Link to="/media" style={{ textDecoration: 'none', color: 'white' }}>
               Media
             </Link>
           </li>

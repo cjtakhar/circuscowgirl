@@ -84,8 +84,8 @@ const Media = () => {
             ></iframe>
           </div>
         </div>
-        <div className="press">
-          <h1 className="press-title">Press</h1>
+        <div className="press-container">
+          <h2 className="press-title">Press</h2>
           <div className="the-horse">
           <Link
                 to="https://thehorse.com/191692/connecting-horses-to-the-public-from-black-beauty-to-cavalia/"

@@ -12,9 +12,10 @@
     margin-bottom: 20px;
   }
 
-  .videos-title {
+  .video-title {
     color: white;
     text-transform: uppercase;
+    font-size: 2rem;
   }
 
   .videos {
@@ -23,6 +24,9 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
   }
 
   .video-container {
@@ -63,6 +67,7 @@
     color: white;
     text-align: center;
     text-transform: uppercase;
+    font-size: 2rem;
   }
 
   .podcast-caption {
@@ -71,10 +76,22 @@
     text-transform: uppercase;
   }
 
+  .press-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    width: 100%;
+  }
+
   .press-title {
     text-align: center;
     color: white;
     text-transform: uppercase;
+    font-size: 2rem;
   }
 
   .press-text a {
